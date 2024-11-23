@@ -86,10 +86,9 @@ We should track both rocks/minerals eaten and clout separately. When the game st
 - [x] Eat Rocks
 - [x] Change between rock eating and collecting phases
 ## Inventory V.02
-- [ ] Collect rocks adds a rock to inventory
-    - [ ] Rocks have properties that are displayed in the inventory
-- [ ] Display inventory
-- [ ] Update Eat Rocks to increase clout based on rock's property
+- [x] Collect rocks adds a rock to inventory
+- [x] Rocks have properties that are displayed in the inventory
+- [x] Update Eat Rocks to increase clout based on rock's property
 ## Automation V.03
 - [ ] Players can spend clout to automatically collect rocks when they're at the quarry
 - [ ] Players can spend clout to automatically eat rocks when they're at the rock kitchen
