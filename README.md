@@ -52,8 +52,10 @@ Rocks can be improved by cutting and polishing. They're worth more.
 - Clarity
 - Luster
 - Impurities
-- type: ignius, metamorphic, sedimentary 
+- type: igneous, metamorphic, sedimentary 
 # Brainstorming bucket
+
+There are two ways to gain advantages: randomly and deterministically. Random power ups can act like item drops or cards in other games. They can be permanent, single use, or have charges. They can provide a persistent advantage that can improve your economy or create an economy of their own. Deterministic power ups would be like a tech tree or skill tree. They can be followed each time whereas random power ups will be reset and different each run. 
 
 The game is status gathering satire where the player eats rocks in order to gain status. 
 Tasty rocks has two main game phases. The first phase is rock collecting. The player clicks a button to receive rocks. The quality of the rocks are at random. 
@@ -80,15 +82,33 @@ User can't identify rocks without education. Sources of education include books,
 We should track both rocks/minerals eaten and clout separately. When the game starts the only thing available to users is the collect rock button. Once they have a full inventory they go to the eat rocks screen. Then they unlock sharing the rocks they're eating which starts getting them clout
 # Versions
 ## MVP: V.01
+- [x] Collect rocks
+- [x] Eat Rocks
+- [x] Change between rock eating and collecting phases
+## Inventory V.02
+- [ ] Collect rocks adds a rock to inventory
+    - [ ] Rocks have properties that are displayed in the inventory
+- [ ] Display inventory
+- [ ] Update Eat Rocks to increase clout based on rock's property
+## Automation V.03
+- [ ] Players can spend clout to automatically collect rocks when they're at the quarry
+- [ ] Players can spend clout to automatically eat rocks when they're at the rock kitchen
+## Locations V.03
+- [ ] Replace phases with locations
+- [ ] The player starts in the rock quarry and locations are only unlocked once they fill their inventory for the first time.
+- [ ] Different rock quarries have different rocks available
+- [ ] Create a rock dex that keeps track of all stats of rocks seen
+- [ ] Create quests to find certain rocks at different locations which unlocks new features
+## Social Media V.04
+- [ ] Add social media where you can post rocks you eat rocks to gain followers and followers give you passive clout
+    - [ ] Rockster
+    - [ ] MyStone
+    - [ ] RockBook
+    - [ ] Stonr
+    - [ ] instagranite
+    - [ ] RokTok
+- [ ] Allow players to get cancelled. When the player is cancelled they lose almost all their followers but gain notoriety. Notoriety gives you a multiplier for getting new followers.
+## Rock farming V.05
+- [ ] Player can grow rocks/crystal
+- [ ] Player can breed two rocks together. The child rock will have a set of the parent's properties and some random new stats.
 
-Collect rocks
-See rock storage
-Eat rocks
-Get inventory
-## Inventory system V.02
-## Rock Box
-When the latest connects a rock it goes into their Rock Box. The Rock Box can only hold do much
-## Rocks props
-Rocks have the following properties: 
-- Size: limits how many rocks fit in the rock box.
-- Quality: How much clout you get from eating them.
